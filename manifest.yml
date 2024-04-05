@@ -16,6 +16,7 @@ applications:
       - customers-db
       - config
       - registry
+      - wavefront
 
 
   - name: vets-service
@@ -34,6 +35,7 @@ applications:
       - vets-db
       - config
       - registry
+      - wavefront
 
 
   - name: visits-service
@@ -52,6 +54,7 @@ applications:
       - visits-db
       - config
       - registry
+      - wavefront
 
 
   - name: api-gateway
@@ -67,4 +70,5 @@ applications:
     services:
       - config
       - registry
+      - wavefront
 
